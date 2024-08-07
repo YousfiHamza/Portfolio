@@ -1,11 +1,15 @@
-import type { Metadata } from "next";
-import { Inter } from "next/font/google";
-import "./globals.css";
+import type { Metadata } from 'next';
+import { Inter } from 'next/font/google';
 
-const inter = Inter({ subsets: ["latin"] });
+import { ThemeProvider } from '@/components/layouts/ThemeProvider';
+import { ThemeToggle } from '@/components/ui/ThemeToggle';
+
+import './globals.css';
+
+const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
-  title: "Hamza Yousfi",
+  title: 'Hamza Yousfi',
   description: "Hamza's Modern Portfolio !",
 };
 
@@ -16,7 +20,17 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={inter.className}>
+        <ThemeProvider
+          attribute="class"
+          defaultTheme="system"
+          enableSystem
+          disableTransitionOnChange
+        >
+          <ThemeToggle />
+          {children}{' '}
+        </ThemeProvider>
+      </body>
     </html>
   );
 }
