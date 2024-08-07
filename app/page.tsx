@@ -1,7 +1,11 @@
+import { Hero } from '@/components/sections/hero';
+
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      Hello World!
+    <main className="relative mx-auto flex flex-col items-center justify-center overflow-hidden bg-white px-5 sm:px-10 dark:bg-black-100">
+      <div className="w-full max-w-7xl">
+        <Hero />
+      </div>
     </main>
   );
 }
