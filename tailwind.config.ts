@@ -91,11 +91,23 @@ const config = {
             transform: 'translate(-50%,-40%) scale(1)',
           },
         },
+        blob: {
+          '0%': {
+            borderRadius: '30% 70% 60% 40% / 70% 60% 40% 30%',
+          },
+          '50%': {
+            borderRadius: '50% 50% 40% 60% / 50% 60% 40% 50%',
+          },
+          '100%': {
+            borderRadius: '30% 70% 60% 40% / 70% 60% 40% 30%',
+          },
+        },
       },
       animation: {
         spotlight: 'spotlight 2s ease .75s 1 forwards',
         'accordion-down': 'accordion-down 0.2s ease-out',
         'accordion-up': 'accordion-up 0.2s ease-out',
+        blob: 'blob 5s ease-in-out infinite',
       },
     },
   },
