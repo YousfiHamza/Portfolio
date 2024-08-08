@@ -1,4 +1,4 @@
-import { Hero } from '@/components/sections/Hero';
+import { Hero } from '@/components/sections/hero';
 import { RecentProjects } from '@/components/sections/RecentProjects';
 
 export default function Home() {
