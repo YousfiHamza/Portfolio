@@ -9,7 +9,7 @@ import Image from 'next/image';
 
 export function HeroSection() {
   return (
-    <div className="text-dark-100 pb-20 pt-20 md:pt-36 dark:text-purple-100">
+    <div className="text-dark-100 pb-20 pt-20 dark:text-purple-100 md:pt-36">
       <div>
         <Spotlight
           className="-left-10 -top-40 h-screen md:-left-32 md:-top-20"
@@ -21,10 +21,10 @@ export function HeroSection() {
         />
         <Spotlight className="left-80 top-28 h-[80vh] w-[50vw]" fill="blue" />
       </div>
-      <div className="dark:bg-grid-white/[0.05] bg-grid-black/[0.05] absolute left-0 top-0 flex h-screen w-full items-center justify-center">
+      <div className="absolute left-0 top-0 flex h-[80vh] w-full items-center justify-center bg-grid-black/[0.05] dark:bg-grid-white/[0.05]">
         <div className="pointer-events-none absolute inset-0 flex items-center justify-center bg-white [mask-image:radial-gradient(ellipse_at_center,transparent_10%,black)] dark:bg-black-100" />
       </div>
-      <div className="relative z-10 flex justify-center md:mb-20">
+      <div className="relative z-10 flex justify-center">
         <div className="flex flex-col items-center justify-evenly gap-5 lg:flex-row">
           <div className="order-2 flex max-w-[89vw] flex-col items-center justify-center md:max-w-xl lg:order-1 lg:max-w-[50%]">
             <p className="max-w-80 text-center text-xs uppercase italic tracking-widest opacity-75">
@@ -46,7 +46,7 @@ export function HeroSection() {
                 HAMZA
               </b>
             </h1>
-            <div className="animate-blob relative h-auto w-full overflow-hidden border-4 border-purple-200 shadow-2xl shadow-purple-950 md:max-w-[444px] dark:border-purple-200 dark:shadow-purple-200">
+            <div className="relative h-auto w-full animate-blob overflow-hidden border-4 border-purple-200 shadow-2xl shadow-purple-950 dark:border-purple-200 dark:shadow-purple-200 md:max-w-[444px]">
               <Image
                 src={Hero}
                 placeholder="blur"

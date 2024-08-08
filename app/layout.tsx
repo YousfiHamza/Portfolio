@@ -1,5 +1,6 @@
 import type { Metadata } from 'next';
 import { Poppins } from 'next/font/google';
+import clsx from 'clsx';
 
 import { ThemeProvider } from '@/components/layouts/ThemeProvider';
 import { ThemeToggle } from '@/components/ui/ThemeToggle';
@@ -23,7 +24,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={poppins.className}>
+      <body className={clsx(poppins.className, 'relative')}>
         <ThemeProvider
           attribute="class"
           defaultTheme="system"
