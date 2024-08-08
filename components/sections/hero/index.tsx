@@ -16,10 +16,10 @@ export function HeroSection() {
           fill="white"
         />
         <Spotlight
-          className="-top-10 left-full h-[80vh] w-[50vw]"
+          className="left-full top-10 h-[80vh] w-[50vw]"
           fill="purple"
         />
-        <Spotlight className="left-80 top-28 h-[80vh] w-[50vs]" fill="blue" />
+        <Spotlight className="left-80 top-28 h-[80vh] w-[50vw]" fill="blue" />
       </div>
       <div className="dark:bg-grid-white/[0.05] bg-grid-black/[0.05] absolute left-0 top-0 flex h-screen w-full items-center justify-center">
         <div className="pointer-events-none absolute inset-0 flex items-center justify-center bg-white [mask-image:radial-gradient(ellipse_at_center,transparent_10%,black)] dark:bg-black-100" />
@@ -41,12 +41,12 @@ export function HeroSection() {
           </div>
           <div className="order-1 mb-12 mt-10 md:mb-0 lg:order-2">
             <h1 className="my-3 w-full text-center text-xl sm:text-2xl md:text-3xl lg:text-4xl">
-              Hi, I&apos;m{' '}
+              Hi 👋🏽 I&apos;m{' '}
               <b className="text-2xl text-yellow-500 sm:text-3xl md:text-4xl lg:text-5xl">
-                HAMZA👋🏽
+                HAMZA
               </b>
             </h1>
-            <div className="animate-blob transition-[all 1s ease-in-out] relative h-auto w-full overflow-hidden md:max-w-[444px]">
+            <div className="animate-blob relative h-auto w-full overflow-hidden border-4 border-purple-200 shadow-2xl shadow-purple-950 md:max-w-[444px] dark:border-purple-200 dark:shadow-purple-200">
               <Image
                 src={Hero}
                 placeholder="blur"
