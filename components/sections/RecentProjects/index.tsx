@@ -10,7 +10,7 @@ export function RecentProjects() {
     <section className="mt-10 pb-10">
       <h2 className="heading">
         A small selection of{' '}
-        <span className="text-purple-300">recent projects</span>
+        <span className="text-purple-300">recent projects</span> !
       </h2>
       <div className="mt-10 flex flex-col flex-wrap items-center justify-center gap-2 p-4 md:flex-row md:gap-12">
         {projects.map(item => (

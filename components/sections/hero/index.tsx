@@ -4,10 +4,10 @@ import { MagicButton } from '@/components/ui/MagicButton';
 import { Spotlight } from '@/components/ui/Spotlight';
 import { TextGenerateEffect } from '@/components/ui/TextGenerate-Effect';
 
-import Hero from '@/public/Hero.jpg';
+import HeroImg from '@/public/Hero.jpg';
 import Image from 'next/image';
 
-export function HeroSection() {
+export function Hero() {
   return (
     <div className="text-dark-100 pb-20 pt-20 dark:text-purple-100 md:pt-36">
       <div>
@@ -48,7 +48,7 @@ export function HeroSection() {
             </h1>
             <div className="relative h-auto w-full animate-blob overflow-hidden border-4 border-purple-200 shadow-2xl shadow-purple-950 dark:border-purple-200 dark:shadow-purple-200 md:max-w-[444px]">
               <Image
-                src={Hero}
+                src={HeroImg}
                 placeholder="blur"
                 alt="Hamza with his Laptop"
                 sizes="(min-width: 400px) 259px, (min-width: 768px) 333px, 444px"
