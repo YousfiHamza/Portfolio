@@ -9,8 +9,11 @@ import Hero from '@/public/Hero.jpg';
 
 export function HeroSection() {
   return (
-    <div className="text-dark-100 pb-20 pt-20 dark:text-purple-100 md:pt-36">
-      <div>
+    <section
+      className="text-dark-100 pb-20 pt-20 dark:text-purple-100 md:pt-36"
+      id="hero"
+    >
+      <div className="z-10">
         <Spotlight
           className="-left-10 -top-40 h-screen md:-left-32 md:-top-20"
           fill="white"
@@ -61,6 +64,6 @@ export function HeroSection() {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 }
