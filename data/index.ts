@@ -31,7 +31,7 @@ export const testimonials = [
       Extraordinary developer with a huge heart, yearning for the next obstacle that he can learn how to pass.`,
     name: 'Emanuel Rădoi',
     title: 'Project & Product Manager • Co-founder Oneshotz FPV',
-    avatar: '/avatars/Emanuel.jpg',
+    avatar: '/avatars/emanuel.jpg',
   },
   {
     quote: `J'ai travaillé avec Hamza à Flow Digital. Il s'est très vite démarqué des autres développeurs par ça monté en compétence et ça polyvalence.
@@ -39,7 +39,7 @@ export const testimonials = [
       Team player, il s'est mené une équipe mais aussi partager sa riche expérience pour améliorer le travail de chacun.`,
     name: 'Erwan Pelmoine',
     title: 'CEO · Expert in outsourcing web developers from Morocco to abroad',
-    avatar: '/avatars/Erwan.jpg',
+    avatar: '/avatars/erwan.jpg',
   },
   {
     quote: `I had the pleasure of working with Hamza during my time as an Investment Analyst at CIMR in Morocco, and I can confidently say that his skills in automation and development were invaluable to my work.
@@ -47,6 +47,6 @@ export const testimonials = [
       Thank you again, Hamza, for your incredible support and expertise!`,
     name: 'Ismail Benjdy',
     title: 'Financial Analyst at CIMR',
-    avatar: '/avatars/Ismail.jpg',
+    avatar: '/avatars/ismail.jpg',
   },
 ];
