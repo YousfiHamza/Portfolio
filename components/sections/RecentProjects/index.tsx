@@ -9,16 +9,14 @@ export function RecentProjects() {
   return (
     <section className="mt-10 pb-10">
       <h2 className="heading">
-        A small selection of{' '}
-        <span className="italic text-purple-700 dark:text-purple-300">
-          recent projects
-        </span>
+        Small selection of my <b>Recent Projects</b>
       </h2>
       <div className="mt-10 flex flex-col flex-wrap items-center justify-center gap-2 p-4 md:flex-row md:gap-12">
         {projects.map(item => (
           <article
             className="mb-2 flex h-[25rem] w-full max-w-[80vw] items-center justify-center sm:mb-0 sm:max-w-96 lg:min-h-[32.5rem]"
             key={item.id}
+            suppressHydrationWarning
           >
             <PinContainer title={item.link} href={item.link}>
               <div className="relative mb-10 flex h-[20vh] w-[80vw] items-center justify-center overflow-hidden rounded-3xl rounded-bl-none rounded-br-none sm:w-96 lg:h-[30vh]">
