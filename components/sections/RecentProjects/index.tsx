@@ -10,7 +10,9 @@ export function RecentProjects() {
     <section className="mt-10 pb-10">
       <h2 className="heading">
         A small selection of{' '}
-        <span className="text-purple-300">recent projects</span> !
+        <span className="italic text-purple-700 dark:text-purple-300">
+          recent projects
+        </span>
       </h2>
       <div className="mt-10 flex flex-col flex-wrap items-center justify-center gap-2 p-4 md:flex-row md:gap-12">
         {projects.map(item => (
@@ -34,9 +36,8 @@ export function RecentProjects() {
               </h1>
 
               <p
-                className="line-clamp-2 text-sm font-light lg:text-xl lg:font-normal"
+                className="line-clamp-2 text-sm font-light italic text-slate-500 lg:text-lg lg:font-normal"
                 style={{
-                  color: '#BEC1DD',
                   margin: '1vh 0',
                 }}
               >
@@ -48,7 +49,7 @@ export function RecentProjects() {
                   {item.iconLists.map((icon, index) => (
                     <div
                       key={index}
-                      className="flex h-8 w-8 items-center justify-center rounded-full border border-white/[.2] bg-black lg:h-10 lg:w-10"
+                      className="flex h-8 w-8 items-center justify-center rounded-full border border-white/[.2] bg-slate-700 dark:bg-black-100 lg:h-10 lg:w-10"
                       style={{
                         transform: `translateX(-${5 * index + 2}px)`,
                       }}
@@ -59,10 +60,10 @@ export function RecentProjects() {
                 </div>
 
                 <div className="flex items-center justify-center">
-                  <p className="text-purple flex text-sm md:text-xs lg:text-xl">
+                  <p className="flex text-sm italic text-purple-800 dark:text-slate-400 md:text-xs lg:text-lg">
                     Check Live Site
                   </p>
-                  <LucideSend className="ms-3" color="#CBACF9" />
+                  <LucideSend className="ms-1 text-purple-800 dark:text-slate-400" />
                 </div>
               </div>
             </PinContainer>
