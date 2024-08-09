@@ -9,14 +9,7 @@ export function Testimonials() {
   return (
     <section id="testimonials" className="py-20">
       <h2 className="heading mb-10">
-        Kind words from{' '}
-        <span className="italic text-purple-700 dark:text-purple-300">
-          satisfied clients
-        </span>{' '}
-        &{' '}
-        <span className="italic text-purple-700 dark:text-purple-300">
-          collaborators
-        </span>
+        Kind words from <b>Satisfied Clients</b> & <b>Collaborators</b>
       </h2>
 
       <div className="flex flex-col items-center max-lg:mt-10">

@@ -28,7 +28,7 @@ export function Hero() {
         <div className="flex flex-col items-center justify-evenly gap-5 lg:flex-row">
           <div className="order-2 flex max-w-[89vw] flex-col items-center justify-center md:max-w-xl lg:order-1 lg:max-w-[50%]">
             <p className="max-w-80 text-center text-xs uppercase italic tracking-widest opacity-75">
-              Transforming Concepts into Seamless User Experiences
+              4 Years of Transforming Concepts into Seamless User Experiences
             </p>
             <TextGenerateEffect
               words="👨‍💻 As a Web Engineer 🌐 my goal is to help build the most performant ⏱️ converging 💰 and good looking websites for my clients 🤝🏻 using the latest technologies 💯"
