@@ -24,3 +24,29 @@ export const projects = [
     link: 'https://ui.aiimg.com',
   },
 ];
+
+export const testimonials = [
+  {
+    quote: `You did not know the meaning of an open and engaging person before meeting Hamza. He challenges the idea of developers being shy and keeping to themselves. His character will leave you speechless at times, as his honesty is ever-present and passion for anything life throws at him is ever-burning. He loves expanding his repertoire of tools and skills he has under his belt, the bigger the challenge the more excited he is. After a talk with him you will always feel energized and ready to tackle a mountain yourself, that is how fast and powerful his enthusiasm spreads.
+      Extraordinary developer with a huge heart, yearning for the next obstacle that he can learn how to pass.`,
+    name: 'Emanuel Rădoi',
+    title: 'Project & Product Manager • Co-founder Oneshotz FPV',
+    avatar: '/avatars/Emanuel.jpg',
+  },
+  {
+    quote: `J'ai travaillé avec Hamza à Flow Digital. Il s'est très vite démarqué des autres développeurs par ça monté en compétence et ça polyvalence.
+      Ces nombreuses expériences sont un réelles atouts et font de lui un développeur web très expérimenté.
+      Team player, il s'est mené une équipe mais aussi partager sa riche expérience pour améliorer le travail de chacun.`,
+    name: 'Erwan Pelmoine',
+    title: 'CEO · Expert in outsourcing web developers from Morocco to abroad',
+    avatar: '/avatars/Erwan.jpg',
+  },
+  {
+    quote: `I had the pleasure of working with Hamza during my time as an Investment Analyst at CIMR in Morocco, and I can confidently say that his skills in automation and development were invaluable to my work.
+      I highly recommend Hamza to anyone looking for a talented and reliable developer. His ability to understand complex financial processes and translate them into efficient automated solutions is truly impressive.
+      Thank you again, Hamza, for your incredible support and expertise!`,
+    name: 'Ismail Benjdy',
+    title: 'Financial Analyst at CIMR',
+    avatar: '/avatars/Ismail.jpg',
+  },
+];

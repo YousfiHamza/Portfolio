@@ -1,5 +1,6 @@
 import { Hero } from '@/components/sections/Hero';
 import { RecentProjects } from '@/components/sections/RecentProjects';
+import { Testimonials } from '@/components/sections/Testimonials';
 
 export default function Home() {
   return (
@@ -7,6 +8,7 @@ export default function Home() {
       <div className="w-full max-w-7xl">
         <Hero />
         <RecentProjects />
+        <Testimonials />
       </div>
     </main>
   );
